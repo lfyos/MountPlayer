@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="界面">
+</Property><Property Name="Solution File" Value="J:\界面\界面.sln">
+</Property><Property Name="User Options File" Value="J:\界面\界面.suo">
+</Property><Property Name="Date" Value="2011年5月8日">
+</Property><Property Name="Time" Value="21:52">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="界面.sln" Description="File successfully backed up as J:\界面\Backup\界面.sln">
+</Event><Event ErrorLevel="0" Project="" Source="界面.suo" Description="File successfully backed up as J:\界面\Backup\界面.suo">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\界面.csproj" Description="Project file successfully backed up as J:\界面\Backup\界面\界面.csproj">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\chooseUserType.cs" Description="File successfully backed up as J:\界面\Backup\界面\chooseUserType.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\chooseUserType.Designer.cs" Description="File successfully backed up as J:\界面\Backup\界面\chooseUserType.Designer.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Form1.cs" Description="File successfully backed up as J:\界面\Backup\界面\Form1.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Form1.Designer.cs" Description="File successfully backed up as J:\界面\Backup\界面\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\FormWelcome.cs" Description="File successfully backed up as J:\界面\Backup\界面\FormWelcome.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\FormWelcome.Designer.cs" Description="File successfully backed up as J:\界面\Backup\界面\FormWelcome.Designer.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Login.cs" Description="File successfully backed up as J:\界面\Backup\界面\Login.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Login.Designer.cs" Description="File successfully backed up as J:\界面\Backup\界面\Login.Designer.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Program.cs" Description="File successfully backed up as J:\界面\Backup\界面\Program.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Properties\AssemblyInfo.cs" Description="File successfully backed up as J:\界面\Backup\界面\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Properties\Resources.Designer.cs" Description="File successfully backed up as J:\界面\Backup\界面\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Properties\Settings.Designer.cs" Description="File successfully backed up as J:\界面\Backup\界面\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\resetPsdForm.cs" Description="File successfully backed up as J:\界面\Backup\界面\resetPsdForm.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\resetPsdForm.Designer.cs" Description="File successfully backed up as J:\界面\Backup\界面\resetPsdForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\userFlag.cs" Description="File successfully backed up as J:\界面\Backup\界面\userFlag.cs">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Properties\Settings.settings" Description="File successfully backed up as J:\界面\Backup\界面\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\chooseUserType.resx" Description="File successfully backed up as J:\界面\Backup\界面\chooseUserType.resx">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Form1.resx" Description="File successfully backed up as J:\界面\Backup\界面\Form1.resx">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\FormWelcome.resx" Description="File successfully backed up as J:\界面\Backup\界面\FormWelcome.resx">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Login.resx" Description="File successfully backed up as J:\界面\Backup\界面\Login.resx">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\Properties\Resources.resx" Description="File successfully backed up as J:\界面\Backup\界面\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\resetPsdForm.resx" Description="File successfully backed up as J:\界面\Backup\界面\resetPsdForm.resx">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\界面.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="界面" Source="界面\界面.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="界面.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="界面.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="界面" Source="界面\界面.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

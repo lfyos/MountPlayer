@@ -1,0 +1,65 @@
+import "C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\prsht.idl";
+import "C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\mshtml.idl";
+import "c:\program files\microsoft sdks\windows\v6.0a\include\dimm.idl";
+import "C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\mshtmhst.idl";
+import "c:\program files\microsoft sdks\windows\v6.0a\include\docobj.idl";
+import "C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\exdisp.idl";
+import "C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\objsafe.idl";
+
+[
+	object,
+	uuid(77024056-A800-4920-82A9-EA0DA01CAC03),
+	dual,
+	helpstring("Iassemble Interface"),
+	pointer_default(unique)
+] 
+#line 19 "h:\\assemble\\assemble\\assemble.h"
+interface Iassemble : IDispatch {
+#line 21 "h:\\assemble\\assemble\\assemble.h"
+	[id(3),helpstring("method ToolbarCallback0")] HRESULT  ToolbarCallback0();
+	[id(4),helpstring("method ToolbarEnable0")] HRESULT  ToolbarEnable0([out,retval] long *status);
+};
+
+[
+	object,
+	uuid(496D7CF8-5F2B-4F06-A0A9-603CC89A3BDA),
+	dual,
+	helpstring("IBitmapHandler Interface"),
+	pointer_default(unique)
+] 
+#line 14 "h:\\assemble\\assemble\\bitmaphandler.h"
+interface IBitmapHandler : IDispatch {
+#line 16 "h:\\assemble\\assemble\\bitmaphandler.h"
+	[id(1),helpstring("method CreateBitmapFileFromResource")] HRESULT  CreateBitmapFileFromResource([in] DWORD resID, [out,retval] BSTR *retval);
+	[id(2),helpstring("method Dispose")] HRESULT  Dispose();
+};
+
+
+[ version(1.0), uuid(54B0978C-EA63-4F80-861E-5D43E81ABB7B), helpstring("assemble 1.0 Type Library") ]
+library assemble
+{
+	importlib("stdole2.tlb");
+	importlib("olepro32.dll");
+
+	[
+		version(1.0),
+		uuid(4663216B-881A-41FB-A507-45596DAD92AC),
+		helpstring("assemble Class")
+	] 
+#line 38 "h:\\assemble\\assemble\\assemble.h"
+	coclass Cassemble {
+		interface Iassemble;
+	};
+
+	[
+		version(1.0),
+		uuid(F92552A6-D0AA-4DC2-9FCA-BE926BDE1591),
+		helpstring("BitmapHandler Class")
+	] 
+#line 30 "h:\\assemble\\assemble\\bitmaphandler.h"
+	coclass CBitmapHandler {
+		interface IBitmapHandler;
+	};
+
+}
+

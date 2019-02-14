@@ -1,0 +1,77 @@
+﻿生成启动时间为 2011-6-25 22:22:43。
+     1>项目“D:\最终的软件2011.5.11\拼装\Shader_player\Shader_player.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Shader_player.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV2.0\include\opencv /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Shader_player.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt movement\Movement_processor.cpp
+         Movement_processor.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         F:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\最终的软件2011.5.11\拼装\Debug\Shader_player.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\kernel\gl /LIBPATH:C:\OpenCV2.0\vs2008\lib\Release /MANIFEST /ManifestFile:"Debug\Shader_player.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\最终的软件2011.5.11\拼装\Debug\Shader_player.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\最终的软件2011.5.11\拼装\Debug\Shader_player.lib" /MACHINE:X86 Debug\Shader_player.res
+         Debug\Shader_player.exe.embed.manifest.res
+         Debug\Assemble_type.obj
+         Debug\Network.obj
+         Debug\Assemble_type_list.obj
+         Debug\Camera.obj
+         Debug\Clip_component.obj
+         Debug\Component.obj
+         Debug\Component_collector.obj
+         Debug\Component_list.obj
+         Debug\Edge.obj
+         Debug\Graphics_system.obj
+         Debug\Light.obj
+         Debug\List_base.obj
+         Debug\Location.obj
+         Debug\Location_dialog.obj
+         Debug\MainFrm.obj
+         Debug\Mount_cache_information_dialog.obj
+         Debug\Mount_information_dialog.obj
+         Debug\Mount_step_dialog.obj
+         Debug\Mount_step_tag_dialog.obj
+         Debug\Mount_time_length_dialog.obj
+         Debug\Movement.obj
+         Debug\Movement_list.obj
+         Debug\Movement_processor.obj
+         Debug\Part.obj
+         Debug\Part_graphics_object.obj
+         Debug\Part_list.obj
+         Debug\Part_parameter.obj
+         Debug\Part_property.obj
+         Debug\Platform_information.obj
+         Debug\PropertiesWnd.obj
+         Debug\Select_component_ids.obj
+         Debug\Shader_base.obj
+         Debug\Shader_coordinate.obj
+         Debug\Shader_environment.obj
+         Debug\Shader_player.obj
+         Debug\Shader_playerDoc.obj
+         Debug\Shader_playerView.obj
+         Debug\Shader_select_area.obj
+         Debug\Shader_size_tag.obj
+         Debug\Shader_solidworks.obj
+         Debug\Shader_solidworks_material_dialog.obj
+         Debug\Shader_terrain.obj
+         Debug\Sound_player.obj
+         Debug\stdafx.obj
+         Debug\Texture.obj
+         Debug\User_interface.obj
+         Debug\ViewTree.obj
+         Debug\Whole_system.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Shader_player.exe.embed.manifest" /manifest Debug\Shader_player.exe.intermediate.manifest "F:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Shader_player.vcxproj -> D:\最终的软件2011.5.11\拼装\Debug\Shader_player.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Shader_player.unsuccessfulbuild”。
+         正在对“Debug\Shader_player.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\最终的软件2011.5.11\拼装\Shader_player\Shader_player.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.98

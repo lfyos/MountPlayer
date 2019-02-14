@@ -1,0 +1,1006 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\mount_player.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""          // 标准组件\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.CHS\\afxribbon.rc""               // MFC ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\mount_player.ico"
+IDR_mount_playerTYPE    ICON                    "res\\mount_playerDoc.ico"
+IDI_FILE_VIEW           ICON                    "res\\file_view.ico"
+IDI_FILE_VIEW_HC        ICON                    "res\\file_view_hc.ico"
+IDI_CLASS_VIEW          ICON                    "res\\class_view.ico"
+IDI_CLASS_VIEW_HC       ICON                    "res\\class_view_hc.ico"
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+IDB_CLASS_VIEW          BITMAP                  "res\\classview.bmp"
+IDB_CLASS_VIEW_24       BITMAP                  "res\\classview_hc.bmp"
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+IDR_BRIDGE_TOOLBAR      BITMAP                  "res\\bridge_toolbar.bmp"
+IDB_BRIDGE_TOOLBAR_BMP  BITMAP                  "res\\bridge_toolbar.bmp"
+IDR_PROPERS_TOOLBAR     BITMAP                  "res\\propertys_toolbar.bmp"
+IDR_PROPER_TOOLBAR      BITMAP                  "res\\proper_toolbar.bmp"
+IDR_PROPERTY_TOOLBAR    BITMAP                  "res\\proper.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_SORT TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_MENU_IMAGES TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+IDR_BRIDGE_TOOLBAR TOOLBAR  24, 24
+BEGIN
+    BUTTON      MENU_FORWARD_ONE
+    BUTTON      MENU_FORWARD_BIG
+    BUTTON      MENU_JUMP_STEP
+    BUTTON      MENU_STOP_MOUNT
+    BUTTON      MENU_BACKWARD_ONE
+    BUTTON      MENU_BACKWARD_BIG
+    BUTTON      MENU_PLAY_SOUND
+    BUTTON      MENU_CHANGE_VIEW
+    BUTTON      MENU_SCALEUP_VIEW
+    BUTTON      MENU_HIDE_COMPONENT
+    BUTTON      MENU_HIDE_ALL_COMPONENT
+    BUTTON      MENU_CLEAR_HIDE_COMPONENT
+    BUTTON      MENU_DISPLAY_BOX
+    BUTTON      MENU_CLEAR_DISPLAY_BOX
+    BUTTON      MENU_SET_COMPONENT_TRANSPARENT
+    BUTTON      MENU_CLEAR_COMPONENT_TRANSPARENT
+    BUTTON      MENU_UP_SELECTION
+    BUTTON      MENU_DOWN_SELECTION
+    BUTTON      MENU_LOCK_COMPONENT
+    BUTTON      MENU_PUT_IN_VIEW
+    BUTTON      MENU_PUT_IN_EQUAL_VIEW
+    BUTTON      MENU_VIEW_X
+    BUTTON      MENU_VIEW_Y
+    BUTTON      MENU_VIEW_Z
+    BUTTON      MENU_BACKWARD_VIEW
+    BUTTON      MENU_PIN_POINT
+    BUTTON      MENU_INTERACT_TRANSLATION
+    BUTTON      MENU_INTERACT_ROTATION
+    BUTTON      MENU_INTERACT_ENLARGE_AREA
+    BUTTON      MENU_INTERACT_SELECTION
+    BUTTON      MENU_INTERACT_SCALE
+    BUTTON      MENU_INTERACT_SPEED
+    BUTTON      MENU_INTERACT_CLIP_PLANE
+    BUTTON      MENU_INTERACT_COMPONENT_TRANSPARENCE
+    BUTTON      MENU_INTERACT_MANUAL_MOUNT
+    BUTTON      MENU_DESIGN_INPUT
+    BUTTON      MENU_DESIGN_DELETE
+    BUTTON      MENU_DESIGN_INPUT_MESSAGE
+    BUTTON      MENU_CURRENT_MOUNT_STEP
+    BUTTON      MENU_MAIN_STEP_DECREASE
+    BUTTON      MENU_MAIN_STEP_INCREASE
+    BUTTON      MENU_CACHE_SUB_DECREASE_MODE
+    BUTTON      MENU_CACHE_SUB_REMAIN_MODE
+    BUTTON      MENU_CACHE_SUB_INCREASE_MODE
+END
+
+IDR_PROPERTY_TOOLBAR TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_PROPERTIES1
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "拼装控制"
+    BEGIN
+        MENUITEM "拼装一小步",                       MENU_FORWARD_ONE
+        MENUITEM "拼装一大步",                       MENU_FORWARD_BIG
+        MENUITEM "连续拼装",                        MENU_FORWARD_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "拼装跳转",                        MENU_JUMP_STEP
+        MENUITEM "停止拼装",                        MENU_STOP_MOUNT
+        MENUITEM SEPARATOR
+        MENUITEM "拆卸一小步",                       MENU_BACKWARD_ONE
+        MENUITEM "拆卸一大步",                       MENU_BACKWARD_BIG
+        MENUITEM "连续拆卸",                        MENU_BACKWARD_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "播放配音",                        MENU_PLAY_SOUND
+        MENUITEM "视口切换",                        MENU_CHANGE_VIEW
+        MENUITEM "视口放大",                        MENU_SCALEUP_VIEW
+        MENUITEM "手动拼装",                        MENU_SET_MANUAL_MOUNT
+        MENUITEM SEPARATOR
+        MENUITEM "拼装杆件表",                       MENU_MOUNT_PART_TABLE
+        MENUITEM "拼装进度表",                       MENU_MOUNT_PROGRESS_TABLE
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                          ID_APP_EXIT
+    END
+    POPUP "拼装演练"
+    BEGIN
+        MENUITEM "拼装演练",                        MENU_VIRTUAL_MOUNT, CHECKED
+    END
+    POPUP "杆件处理"
+    BEGIN
+        MENUITEM "杆件隐藏",                        MENU_HIDE_COMPONENT
+        MENUITEM "仅显杆件",                        MENU_HIDE_ALL_COMPONENT
+        MENUITEM "显示杆件",                        MENU_CLEAR_HIDE_COMPONENT
+        MENUITEM SEPARATOR
+        MENUITEM "显示包围盒",                       MENU_DISPLAY_BOX
+        MENUITEM "取消包围盒",                       MENU_CLEAR_DISPLAY_BOX
+        MENUITEM SEPARATOR
+        MENUITEM "杆件透明",                        MENU_SET_COMPONENT_TRANSPARENT
+        MENUITEM "取消透明",                        MENU_CLEAR_COMPONENT_TRANSPARENT
+        MENUITEM SEPARATOR
+        MENUITEM "上层杆件",                        MENU_UP_SELECTION
+        MENUITEM "下层杆件",                        MENU_DOWN_SELECTION
+        MENUITEM SEPARATOR
+        MENUITEM "启动剖分",                        MENU_SET_CLIP_PLANE
+    END
+    POPUP "视口操作"
+    BEGIN
+        MENUITEM "放置视口中心",                      MENU_LOCK_COMPONENT
+        MENUITEM "放入整个视口",                      MENU_PUT_IN_VIEW
+        MENUITEM "放入等轴视口",                      MENU_PUT_IN_EQUAL_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "从X轴观测视口",                     MENU_VIEW_X
+        MENUITEM "从Y轴观测视口",                     MENU_VIEW_Y
+        MENUITEM "从Z轴观测视口",                     MENU_VIEW_Z
+        MENUITEM SEPARATOR
+        MENUITEM "恢复前一视口",                      MENU_BACKWARD_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "显示隐藏坐标系",                     MENU_DISPLAY_REFERENCE_FRAME
+        MENUITEM SEPARATOR
+        MENUITEM "修改背景灯光信息",                    MENU_MODIFY_LIGHT
+    END
+    POPUP "鼠标功能"
+    BEGIN
+        MENUITEM "左键的功能为坐标测试",                  MENU_PIN_POINT
+        MENUITEM "左键的功能为平移视口",                  MENU_INTERACT_TRANSLATION
+        MENUITEM "左键的功能为旋转视口",                  MENU_INTERACT_ROTATION
+        MENUITEM "左键的功能为区域放大",                  MENU_INTERACT_ENLARGE_AREA
+        MENUITEM "左键的功能为选择杆件",                  MENU_INTERACT_SELECTION
+        MENUITEM SEPARATOR
+        MENUITEM "旋轮的功能为调节视口大小",                MENU_INTERACT_SCALE
+        MENUITEM "旋轮的功能为调节拼装速度",                MENU_INTERACT_SPEED
+        MENUITEM "旋轮的功能为调节剖分平面",                MENU_INTERACT_CLIP_PLANE
+        MENUITEM "旋轮的功能为调节透明度",                 MENU_INTERACT_COMPONENT_TRANSPARENCE
+        MENUITEM "旋轮的功能为手动拼装控制",                MENU_INTERACT_MANUAL_MOUNT
+    END
+    POPUP "拼装设计"
+    BEGIN
+        MENUITEM "输入运动信息",                      MENU_DESIGN_INPUT
+        MENUITEM "删除运动信息",                      MENU_DESIGN_DELETE
+        MENUITEM "输入拼装字幕",                      MENU_DESIGN_INPUT_MESSAGE
+        MENUITEM SEPARATOR
+        MENUITEM "主拼装步骤编号",                     MENU_DESIGN_MAIN_SORT
+        MENUITEM "次拼装步骤编号",                     MENU_DESIGN_SUB_SORT
+        MENUITEM SEPARATOR
+        MENUITEM "合并拼装步骤",                      MENU_COMBINE_STEP
+        MENUITEM "拆分拼装步骤",                      MENU_SEPARATE_STEP
+        MENUITEM "移动拼装信息",                      MENU_MOVE_MOVEMENT
+        MENUITEM SEPARATOR
+        MENUITEM "保存运动信息",                      MENU_SAVE_MOVEMENT
+        MENUITEM "装入运动信息",                      MENU_RESTORE_MOVEMENT
+    END
+    POPUP "拼装缓存"
+    BEGIN
+        MENUITEM "当前拼装步骤",                      MENU_CURRENT_MOUNT_STEP
+        MENUITEM SEPARATOR
+        MENUITEM "次拼装步骤减一",                     MENU_SUB_STEP_DECREASE
+        MENUITEM "次拼装步骤加一",                     MENU_SUB_STEP_INCREASE
+        MENUITEM SEPARATOR
+        MENUITEM "主拼装步骤减一",                     MENU_MAIN_STEP_DECREASE
+        MENUITEM "主拼装步骤加一",                     MENU_MAIN_STEP_INCREASE
+        MENUITEM SEPARATOR
+        MENUITEM "插入/删除缓存",                     MENU_CACHE_INSERT_OR_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "次拼装步骤减一模式",                   MENU_CACHE_SUB_DECREASE_MODE
+        MENUITEM "次拼装步骤不变模式",                   MENU_CACHE_SUB_REMAIN_MODE
+        MENUITEM "次拼装步骤加一模式",                   MENU_CACHE_SUB_INCREASE_MODE
+        MENUITEM SEPARATOR
+        MENUITEM "多项运动存入缓存",                    MENU_TREE_MOVEMENT_SAVE_TO_CACHE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        POPUP "&工具条和可停靠窗口"
+        BEGIN
+            MENUITEM "<placeholder>",               ID_VIEW_TOOLBAR
+        END
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        POPUP "程序外观"
+        BEGIN
+            MENUITEM "Windows &2000",               ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "&Windows XP",                 ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio.NET 200&5",     ID_VIEW_APPLOOK_VS_2005
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "&Aqua Style",                 ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "文档资料",                        ID_APP_ABOUT
+        MENUITEM "使用手册",                        MENU_MANUAL_VIEW
+    END
+END
+
+IDR_POPUP_EDIT MENU 
+BEGIN
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_POPUP_SORT MENU 
+BEGIN
+    POPUP "Sorting"
+    BEGIN
+        MENUITEM "&Sort Alphabeticaly",         ID_SORTING_SORTALPHABETIC
+        MENUITEM "Sort by &Type",               ID_SORTING_SORTBYTYPE
+        MENUITEM "Sort by Acc&ess",             ID_SORTING_SORTBYACCESS
+        MENUITEM "Group by t&ype",              ID_SORTING_GROUPBYTYPE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU 
+BEGIN
+    POPUP "Explorer"
+    BEGIN
+        MENUITEM "&Open",                       ID_OPEN
+        MENUITEM "Open &With....",              ID_OPEN_WITH
+        MENUITEM SEPARATOR
+        MENUITEM "&Compile",                    ID_DUMMY_COMPILE
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "&Remove",                     ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Properties...",              ID_PROPERTIES
+    END
+END
+
+IDR_OUTPUT_POPUP MENU 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Clear",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide",                       ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_THEME_MENU MENU 
+BEGIN
+    MENUITEM "Office 2007 (&Blue Style)",   ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "Office 2007 (B&lack Style)",  ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "Office 2007 (&Silver Style)", ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Office 2007 (&Aqua Style)",   ID_VIEW_APPLOOK_OFF_2007_AQUA
+END
+
+IDR_RBUTTON_MENU MENU 
+BEGIN
+    POPUP "右键菜单"
+    BEGIN
+        MENUITEM "次拼装步骤减一",                     MENU_SUB_STEP_DECREASE
+        MENUITEM "次拼装步骤加一",                     MENU_SUB_STEP_INCREASE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 mount_player"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "mount_player, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_MOUNT_LIGHT_DIALOG DIALOGEX 0, 0, 303, 185
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+CAPTION "修改灯光信息"
+FONT 12, "楷体_GB2312", 400, 0, 0x86
+BEGIN
+    CONTROL         "1",IDC_SELECT_1_RADIO,"Button",BS_AUTORADIOBUTTON,14,17,16,10
+    CONTROL         "2",IDC_SELECT_2_RADIO,"Button",BS_AUTORADIOBUTTON,37,17,16,10
+    CONTROL         "3",IDC_SELECT_3_RADIO,"Button",BS_AUTORADIOBUTTON,60,17,16,10
+    CONTROL         "4",IDC_SELECT_4_RADIO,"Button",BS_AUTORADIOBUTTON,83,17,16,10
+    CONTROL         "5",IDC_SELECT_5_RADIO,"Button",BS_AUTORADIOBUTTON,106,17,16,10
+    CONTROL         "6",IDC_SELECT_6_RADIO,"Button",BS_AUTORADIOBUTTON,129,17,16,10
+    CONTROL         "7",IDC_SELECT_7_RADIO,"Button",BS_AUTORADIOBUTTON,152,17,16,10
+    CONTROL         "8",IDC_SELECT_8_RADIO,"Button",BS_AUTORADIOBUTTON,175,17,16,10
+    CONTROL         "选中",IDC_SELECT_SELECTED_RADIO,"Button",BS_AUTORADIOBUTTON,198,17,26,10
+    CONTROL         "背景",IDC_SELECT_BACKGROUND_RADIO,"Button",BS_AUTORADIOBUTTON,231,17,26,10
+    EDITTEXT        IDC_RED_EDIT,12,47,83,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GREEN_EDIT,110,47,83,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BLUE_EDIT,208,47,83,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AMBIENT_EDIT,14,80,83,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIFFUSE_EDIT,112,80,83,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EMISSION_EDIT,210,80,83,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SHININESS_EDIT,14,97,83,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SPECULAR_EDIT,210,97,83,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_X_EDIT,13,129,83,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y_EDIT,111,129,83,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Z_EDIT,209,129,83,12,ES_AUTOHSCROLL
+    CONTROL         "有效",IDC_ENABLE_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,151,29,12
+    CONTROL         "",IDC_LIGHT_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,111,153,181,12
+    GROUPBOX        "照明灯选择",IDC_STATIC,7,8,289,23,BS_CENTER
+    GROUPBOX        "颜色（红 绿 蓝）",IDC_STATIC,5,37,289,27,BS_CENTER
+    GROUPBOX        "属性（环境光 散射光 镜面光 发射光 反光系数）",IDC_STATIC,7,70,289,44,BS_CENTER
+    GROUPBOX        "位置（X Y Z）",IDC_STATIC,6,119,289,27,BS_CENTER
+    CONTROL         "绝对/相对",IDC_ABSOLUTE_RELATIVE_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,49,151,47,12
+    PUSHBUTTON      "选择颜色",IDC_COLOR_INPUT_BUTTON,112,97,83,12
+    CONTROL         "环境",IDC_SELECT_ENVIRONMENT_RADIO,"Button",BS_AUTORADIOBUTTON,264,17,26,10
+    CONTROL         "镜面辅助颜色/单色",IDC_SEPARATE_SPECULAR_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,166,83,12
+END
+
+IDD_VIRTUAL_MOUNT_DIALOG DIALOGEX 0, 0, 168, 257
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+CAPTION "虚拟拼装选择杆件"
+FONT 12, "楷体_GB2312", 400, 0, 0x86
+BEGIN
+    LISTBOX         IDC_PART_LIST,7,7,154,229,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "拼装",IDOK,7,236,50,14
+    PUSHBUTTON      "退出",IDCANCEL,111,236,50,14
+END
+
+IDD_LOCATION_DIALOG DIALOGEX 0, 0, 192, 135
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+CAPTION "输入运动信息对话框"
+FONT 12, "楷体_GB2312", 400, 0, 0x86
+BEGIN
+    EDITTEXT        IDC_DX_EDIT,14,20,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DY_EDIT,73,20,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DZ_EDIT,132,20,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RX_EDIT,14,49,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RY_EDIT,73,49,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RZ_EDIT,132,49,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAIN_STEP_EDIT,14,78,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SUB_STEP_EDIT,73,78,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TIME_EDIT,132,78,43,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "下一点",IDOK,14,102,43,12
+    GROUPBOX        "坐标平移(X,Y,Z)",IDC_STATIC,7,10,177,27,BS_CENTER
+    GROUPBOX        "旋转（X Y Z）",IDC_STATIC,7,39,177,27,BS_CENTER
+    GROUPBOX        "主次拼装步骤",IDC_STATIC,7,68,115,27,BS_CENTER
+    GROUPBOX        "运动时间",IDC_STATIC,125,68,56,27,BS_CENTER
+    CONTROL         "存入缓存",IDC_SAVE_TO_CACHE_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,102,43,12
+    PUSHBUTTON      "最后一点",IDC_LAST_POINT,133,102,43,12
+END
+
+IDD_SUBTITLE_INPUT_DIALOG DIALOGEX 0, 0, 262, 142
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+CAPTION "拼装配音字幕输入对话框"
+FONT 12, "楷体_GB2312", 400, 0, 0x86
+BEGIN
+    EDITTEXT        IDC_SUBTITLE_EDIT,7,8,248,111,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    DEFPUSHBUTTON   "确认",IDOK,7,121,77,14
+    PUSHBUTTON      "取消",IDCANCEL,178,121,77,14
+END
+
+IDD_MAIN_SUB_STEP_DIALOG DIALOGEX 0, 0, 135, 94
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+CAPTION "拼装步骤输入对话框"
+FONT 12, "楷体_GB2312", 400, 0, 0x86
+BEGIN
+    EDITTEXT        IDC_MAIN_STEP_EDIT,68,14,60,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SUB_STEP_EDIT,68,41,60,16,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确认",IDOK,10,67,50,14
+    PUSHBUTTON      "取消",IDCANCEL,75,67,50,14
+    LTEXT           " 拼装步骤：",IDC_STATIC,14,14,43,16,SS_CENTERIMAGE
+END
+
+IDD_MOVEMENT_LABEL_DIALOG DIALOGEX 0, 0, 208, 47
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+CAPTION "运动标签输入对话框"
+FONT 12, "楷体_GB2312", 400, 0, 0x86
+BEGIN
+    EDITTEXT        IDC_MOVEMENT_LABEL_EDIT,7,7,194,16,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确认",IDOK,7,26,50,14
+    PUSHBUTTON      "取消",IDCANCEL,151,26,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "上海大学计算机工程与科学学院"
+            VALUE "FileDescription", "铁路桥梁抢修模拟拼装系统"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "铁路桥梁抢修模拟拼装系统.exe"
+            VALUE "LegalCopyright", "上海大学"
+            VALUE "OriginalFilename", "铁路桥梁抢修模拟拼装系统.exe"
+            VALUE "ProductName", "铁路桥梁抢修模拟拼装系统"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_MOUNT_LIGHT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_VIRTUAL_MOUNT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 161
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_LOCATION_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_SUBTITLE_INPUT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 255
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_MAIN_SUB_STEP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 128
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_MOVEMENT_LABEL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    VK_PRIOR,       MENU_BACKWARD_ALL,      VIRTKEY, NOINVERT
+    VK_UP,          MENU_BACKWARD_BIG,      VIRTKEY, NOINVERT
+    VK_LEFT,        MENU_BACKWARD_ONE,      VIRTKEY, NOINVERT
+    "<",            MENU_CACHE_SUB_DECREASE_MODE, ASCII, NOINVERT
+    ">",            MENU_CACHE_SUB_INCREASE_MODE, ASCII, NOINVERT
+    "/",            MENU_CACHE_SUB_REMAIN_MODE, ASCII, NOINVERT
+    "?",            MENU_CACHE_SUB_REMAIN_MODE, ASCII, NOINVERT
+    VK_RETURN,      MENU_CURRENT_MOUNT_STEP, VIRTKEY, NOINVERT
+    VK_DELETE,      MENU_DESIGN_DELETE,     VIRTKEY, NOINVERT
+    VK_INSERT,      MENU_DESIGN_INPUT,      VIRTKEY, NOINVERT
+    VK_INSERT,      MENU_DESIGN_INPUT_MESSAGE, VIRTKEY, SHIFT, NOINVERT
+    VK_NEXT,        MENU_FORWARD_ALL,       VIRTKEY, NOINVERT
+    VK_DOWN,        MENU_FORWARD_BIG,       VIRTKEY, NOINVERT
+    VK_RIGHT,       MENU_FORWARD_ONE,       VIRTKEY, NOINVERT
+    "D",            MENU_INTERACT_CLIP_PLANE, VIRTKEY, NOINVERT
+    "F",            MENU_INTERACT_COMPONENT_TRANSPARENCE, VIRTKEY, NOINVERT
+    "V",            MENU_INTERACT_ENLARGE_AREA, VIRTKEY, NOINVERT
+    "G",            MENU_INTERACT_MANUAL_MOUNT, VIRTKEY, NOINVERT
+    "C",            MENU_INTERACT_ROTATION, VIRTKEY, NOINVERT
+    "A",            MENU_INTERACT_SCALE,    VIRTKEY, NOINVERT
+    "B",            MENU_INTERACT_SELECTION, VIRTKEY, NOINVERT
+    "S",            MENU_INTERACT_SPEED,    VIRTKEY, NOINVERT
+    "X",            MENU_INTERACT_TRANSLATION, VIRTKEY, NOINVERT
+    "-",            MENU_MAIN_STEP_DECREASE, ASCII, NOINVERT
+    "=",            MENU_MAIN_STEP_INCREASE, ASCII, NOINVERT
+    "Z",            MENU_PIN_POINT,         VIRTKEY, NOINVERT
+    VK_SPACE,       MENU_STOP_MOUNT,        VIRTKEY, NOINVERT
+    ",",            MENU_SUB_STEP_DECREASE, ASCII,  NOINVERT
+    ".",            MENU_SUB_STEP_INCREASE, ASCII,  NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "铁路桥梁抢修模拟拼装系统 V2009 \n上海大学计算机工程与科学学院\n铁路桥梁抢修模拟拼装系统\n铁路桥梁抢修模拟拼装系统 (*.lfy)\n.lfy\nmountplayer.Document\nmount_player.Document"
+    ID_WINDOW_MANAGER       "ID_WINDOW_MANAGER\nID_WINDOW_MANAGER"
+    ID_PROPERTIES           "ID_PROPERTIES\nID_PROPERTIES"
+    ID_NEW_FOLDER           "ID_NEW_FOLDER\nID_NEW_FOLDER"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "铁路桥梁抢修模拟拼装系统"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "创建新文档\n新建"
+    ID_FILE_OPEN            "打开现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "用新名称保存活动文档\n另存为"
+    ID_FILE_PRINT           "ID_FILE_PRINT\nID_FILE_PRINT"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "文档资料\n文档资料"
+    ID_APP_EXIT             "退出应用程序\n退出"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开此文档"
+    ID_FILE_MRU_FILE2       "打开此文档"
+    ID_FILE_MRU_FILE3       "打开此文档"
+    ID_FILE_MRU_FILE4       "打开此文档"
+    ID_FILE_MRU_FILE5       "打开此文档"
+    ID_FILE_MRU_FILE6       "打开此文档"
+    ID_FILE_MRU_FILE7       "打开此文档"
+    ID_FILE_MRU_FILE8       "打开此文档"
+    ID_FILE_MRU_FILE9       "打开此文档"
+    ID_FILE_MRU_FILE10      "打开此文档"
+    ID_FILE_MRU_FILE11      "打开此文档"
+    ID_FILE_MRU_FILE12      "打开此文档"
+    ID_FILE_MRU_FILE13      "打开此文档"
+    ID_FILE_MRU_FILE14      "打开此文档"
+    ID_FILE_MRU_FILE15      "打开此文档"
+    ID_FILE_MRU_FILE16      "打开此文档"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_CASCADE       "ID_WINDOW_CASCADE\nID_WINDOW_CASCADE"
+    ID_WINDOW_TILE_HORZ     "ID_WINDOW_TILE_HORZ\nID_WINDOW_TILE_HORZ"
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "清除选定内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制选定内容并将其放到剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切选定内容并将其放到剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "恢复上次撤消的操作\n重做"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "显示/隐藏状态\n切换状态"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小为图标"
+    AFX_IDS_SCMAXIMIZE      "使窗口最大化显示"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到前一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATUS_PANE1        "Pane 1"
+    IDS_STATUS_PANE2        "Pane 2"
+    IDS_TOOLBAR_STANDARD    "显示/隐藏工具条"
+    IDS_TOOLBAR_CUSTOMIZE   "修改用户界面布局"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SORTING_GROUPBYTYPE  "ID_SORTING_GROUPBYTYPE\nID_SORTING_GROUPBYTYPE"
+    ID_SORTING_SORTALPHABETIC 
+                            "ID_SORTING_SORTALPHABETIC\nID_SORTING_SORTALPHABETIC"
+    ID_SORTING_SORTBYTYPE   "ID_SORTING_SORTBYTYPE\nID_SORTING_SORTBYTYPE"
+    ID_SORTING_SORTBYACCESS "ID_SORTING_SORTBYACCESS\nID_SORTING_SORTBYACCESS"
+    IDS_FILE_VIEW           "杆件列表"
+    IDS_CLASS_VIEW          "拼装结构"
+    IDS_OUTPUT_WND          "拼装进度"
+    IDS_PROPERTIES_WND      "拼装信息"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EXPLORER            "Explorer"
+    IDS_EDIT_MENU           "Edit"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BUILD_TAB           "Build"
+    IDS_DEBUG_TAB           "Debug"
+    IDS_FIND_TAB            "Find"
+END
+
+STRINGTABLE 
+BEGIN
+    MENU_PLAY_SOUND         "打开/关闭播音\n播放配音"
+    MENU_CHANGE_VIEW        "设置拼装时是否把视口定位于拼装杆件\n视口切换"
+    MENU_SCALEUP_VIEW       "设置拼装时是否把视口放大或缩小\n视口放大"
+    MENU_VIRTUAL_MOUNT      "拼装演练\n拼装演练"
+    MENU_DESIGN_INPUT       "输入运动信息（快捷键：Insert）\n输入运动信息"
+    MENU_DESIGN_DELETE      "删除运动信息（快捷键：Delete）\n删除运动信息"
+    MENU_DESIGN_INPUT_MESSAGE "输入拼装字幕（快捷键：Shift+Insert）\n输入拼装字幕"
+    MENU_DESIGN_MAIN_SORT   "主拼装步骤编号\n主拼装步骤编号"
+    MENU_DESIGN_SUB_SORT    "次拼装步骤编号\n次拼装步骤编号"
+    MENU_SAVE_MOVEMENT      "保存运动信息\n保存运动信息"
+END
+
+STRINGTABLE 
+BEGIN
+    MENU_INTERACT_CLIP_PLANE "设置鼠标旋轮的功能为调节剖分平面（快捷键：d）\n旋轮的功能为调节剖分平面"
+    MENU_INTERACT_COMPONENT_TRANSPARENCE "设置鼠标旋轮的功能为调节透明度（快捷键：f）\n旋轮的功能为调节透明度"
+    MENU_INTERACT_MANUAL_MOUNT "设置鼠标旋轮的功能为手动拼装控制（快捷键：g）\n旋轮的功能为手动拼装控制"
+    MENU_FORWARD_ONE        "向前拼装一小步（快捷键：向右箭头）\n拼装一小步"
+    MENU_FORWARD_ALL        "连续向前拼装直至拼装完毕为止（快捷键：pg dn）\n连续拼装"
+    MENU_STOP_MOUNT         "停止拼装或拆卸（快捷键：空格 Space）\n停止拼装"
+    MENU_BACKWARD_ONE       "向后拆卸一小步（快捷键：向左箭头）\n单步拆卸一小步"
+    MENU_BACKWARD_ALL       "连续向后拆卸直至所有拼装杆件全部被拆卸为止（快捷键：pg up）\n连续拆卸"
+    MENU_JUMP_STEP          "跳转到指定的拼装杆件或拼装步骤\n拼装跳转"
+END
+
+STRINGTABLE 
+BEGIN
+    MENU_HIDE_COMPONENT     "把小窗口中显示的杆件或杆件组合隐藏起来\n杆件隐藏"
+    MENU_HIDE_BOLT          "把选中杆件或者杆件组合中的螺栓和栓钉隐藏起来，如果没有选中杆件，则隐藏所有螺栓和栓钉\n隐藏螺栓栓钉"
+    MENU_HIDE_ALL_COMPONENT "除了当前小窗口中显示的杆件或杆件组合，把其它所有的杆件都隐藏起来\n仅显杆件"
+    MENU_CLEAR_HIDE_COMPONENT "把隐藏的杆件重新显示出来\n显示杆件"
+    MENU_DISPLAY_BOX        "把小窗口中显示的杆件或者杆件组合设置为显示包围盒\n设置显示包围盒"
+    MENU_CLEAR_DISPLAY_BOX  "取消小窗口中显示的的杆件或者杆件组合的包围盒显示方式，使其按正常方式显示\n取消显示包围盒"
+    MENU_SET_COMPONENT_TRANSPARENT "把小窗口中显示的杆件或者杆件组合设置为透明显示\n设置杆件透明"
+    MENU_CLEAR_COMPONENT_TRANSPARENT "取消小窗口中显示杆件或者杆件组的透明显示\n取消杆件透明"
+    MENU_UP_SELECTION       "选中当前所选杆件或者杆件组合的上一级杆件组合\n选择上层杆件组合"
+    MENU_DOWN_SELECTION     "选中当前所选杆件或者杆件组合的下一级杆件组合或杆件\n选择下层杆件组合"
+    MENU_SET_CLIP_PLANE     "启动/取消杆件剖分显示方式，剖分面正对视线，且通过旋转中心\n启动/取消杆件剖分"
+    MENU_CLEAR_CLIP_PLANE   "取消杆件剖分显示方式\n取消杆件剖分"
+END
+
+STRINGTABLE 
+BEGIN
+    MENU_LOCK_COMPONENT     "把小窗口中显示的杆件或者杆件组合放置在视口中心\n放置视口中心"
+    MENU_PUT_IN_VIEW        "把小窗口中显示的杆件或者杆件组合放置在视口中心，并放大或缩小使其占据整个视口\n放入整个视口"
+    MENU_PUT_IN_EQUAL_VIEW  "以等轴侧视图的方式，把小窗口中显示的杆件或者杆件组合放置在视口中心，并放大或缩小使其占据整个视口\n放入等轴视口"
+    MENU_VIEW_X             "以从X轴观测的方式，把小窗口中显示的杆件或者杆件组合放置在视口中心，并放大或缩小使其占据整个视口\n从X轴观测视口"
+    MENU_VIEW_Y             "以从Y轴观测的方式，把小窗口中显示的杆件或者杆件组合放置在视口中心，并放大或缩小使其占据整个视口\n从Y轴观测视口"
+    MENU_VIEW_Z             "以从Z轴观测的方式，把小窗口中显示的杆件或者杆件组合放置在视口中心，并放大或缩小使其占据整个视口\n从Z轴观测视口"
+    MENU_BACKWARD_VIEW      "把视口恢复为设置以前的状态\n恢复前一视口"
+    MENU_MODIFY_LIGHT       "更改系统中选中杆件的颜色、背景颜色、照明灯属性等信息\n修改背景灯光信息"
+    MENU_PIN_POINT          "设置鼠标左键的功能为坐标测试（快捷键：z）\n左键的功能为坐标测试"
+    MENU_INTERACT_TRANSLATION "设置鼠标左键的功能为平移视口（快捷键：x）\n左键的功能为平移视口"
+    MENU_INTERACT_ROTATION  "设置鼠标左键的功能为旋转视口（快捷键：c）\n左键的功能为旋转视口"
+    MENU_INTERACT_ENLARGE_AREA "设置鼠标左键的功能为区域放大（快捷键：v）\n左键的功能为区域放大"
+    MENU_INTERACT_SELECTION "设置鼠标左键的功能为选择杆件（快捷键：b）\n左键的功能为选择杆件"
+    MENU_INTERACT_SCALE     "设置鼠标旋轮的功能为调节视口大小（快捷键：a）\n旋轮的功能为调节视口大小"
+    MENU_INTERACT_SPEED     "设置鼠标旋轮的功能为调节拼装速度（快捷键：s）\n旋轮的功能为调节拼装速度"
+END
+
+STRINGTABLE 
+BEGIN
+    MENU_RESTORE_MOVEMENT   "装入运动信息\n装入运动信息"
+    MENU_MOVE_MOVEMENT      "移动拼装信息\n移动拼装信息"
+    MENU_COMBINE_STEP       "合并拼装步骤\n合并拼装步骤"
+    MENU_SEPARATE_STEP      "拆分拼装步骤\n拆分拼装步骤"
+    MENU_CREATE_SOUND_FILE  "生成播音文件\n生成播音文件"
+    MENU_CYCLE_MOUNT        "设置是否循环拼装\n循环拼装"
+    MENU_MOUNT_PROGRESS_TABLE "生成拼装进度表\n拼装进度表"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_APPLOOK_WIN_2000 "Windows 2000\nWindows 2000"
+    ID_VIEW_APPLOOK_OFF_XP  "Office XP\nOffice XP"
+    ID_VIEW_APPLOOK_WIN_XP  "Windows XP\nWindows XP"
+    ID_VIEW_APPLOOK_OFF_2003 "Office 2003\nOffice 2003"
+    ID_VIEW_APPLOOK_VS_2005 "Visual Studio.NET 2005\nVisual Studio.NET 2005"
+    ID_VIEW_APPLOOK_OFF_2007_BLUE "Blue Style\nBlue Style"
+    ID_VIEW_APPLOOK_OFF_2007_BLACK "Black Style\nBlack Style"
+    ID_VIEW_APPLOOK_OFF_2007_SILVER "Silver Style\nSilver Style"
+    ID_VIEW_APPLOOK_OFF_2007_AQUA "Aqua Style\nAqua Style"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_TOOLS_MACRO          "ID_TOOLS_MACRO\nID_TOOLS_MACRO"
+END
+
+STRINGTABLE 
+BEGIN
+    MENU_SUB_STEP_INCREASE  "次拼装步骤加一（快捷键：.即键盘上>下面的字符）\n次拼装步骤加一"
+    MENU_SUB_STEP_DECREASE  "次拼装步骤减一（快捷键：,即键盘上<下面的字符）\n次拼装步骤减一"
+    MENU_MAIN_STEP_INCREASE "缓存中的主拼装步骤加一（快捷键：=）\n主拼装步骤加一"
+    MENU_MAIN_STEP_DECREASE "缓存中的主拼装步骤减一（快捷键：-）\n主拼装步骤减一"
+    MENU_CURRENT_MOUNT_STEP "设定运动缓存的拼装步骤为当前进度表中的拼装步骤（快捷键：回车Return）\n当前拼装步骤"
+    MENU_CACHE_INSERT_OR_DELETE "从缓存插入或删除一项运动信息\n从缓存插入或删除一项运动信息"
+END
+
+STRINGTABLE 
+BEGIN
+    MENU_CACHE_SUB_INCREASE_MODE "缓存次拼装步骤加一模式（快捷键：Shift + >）\n次拼装步骤加一模式"
+    MENU_CACHE_SUB_DECREASE_MODE "缓存次拼装步骤减一模式（快捷键：Shift + <）\n次拼装步骤减一模式"
+    MENU_CACHE_SUB_REMAIN_MODE "缓存中的次拼装步骤不变模式（快捷键：Shift + / 或 /）\n次拼装步骤不变模式"
+    MENU_HIDE_ALL_COMPONENT_EXCEPT_IN_SMALL_WINDOW 
+                            "除了小窗口中显示的杆件或杆件组合，把其它所有的杆件都隐藏起来\n仅显小窗口中的杆件"
+    MENU_FORWARD_BIG        "向前拼装一大步（快捷键：向下箭头）\n拼装一大步"
+    MENU_BACKWARD_BIG       "向后拆卸一大步（快捷键：向上箭头）\n单步拆卸一大步"
+END
+
+STRINGTABLE 
+BEGIN
+    MENU_SELECT_BRDGE       "选择拼装桥梁/桥墩\n选择拼装桥梁/桥墩"
+    MENU_SELECT_BRIDGE      "选择拼装桥梁/桥墩\n选择拼装桥梁/桥墩"
+    MENU_SET_MANUAL_MOUNT   "设置/取消手动拼装"
+    MENU_INTERACT_BOX_DISTANCE "设置鼠标旋轮的功能为调整包围盒距离\n旋轮的功能为调整包围盒距离"
+    MENU_MOUNT_PART_TABLE   "拼装杆件表\n拼装杆件表"
+    MENU_DISPLAY_REFERENCE_FRAME "显示/隐藏坐标系\n显示/隐藏坐标系"
+    MENU_TREE_MOVEMENT_SAVE_TO_CACHE "把一种杆件组合的多个拼装步骤信息全部存储到缓存\n运动存入缓存"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\mount_player.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"          // 标准组件
+#if !defined(_AFXDLL)
+#include "l.CHS\afxribbon.rc"               // MFC ribbon and control bar resources
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,1071 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 15.00.21022.08 (5bbb941d).
+//
+// h:\part\part\debug\swpublished.tlh
+//
+// C++ source equivalent of Win32 type library swpublished.tlb
+// compiler-generated file created 07/23/10 at 11:06:25 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace SWPublished {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("c71c31cd-898c-11d4-aef6-00c04f603faf"))
+/* LIBID */ __SWPublished;
+struct __declspec(uuid("c71c31ce-898c-11d4-aef6-00c04f603faf"))
+/* interface */ IPropertyManagerPageHandler;
+struct /* coclass */ PropertyManagerPageHandler;
+struct __declspec(uuid("6d236210-2459-4436-b422-8134f1f4ad63"))
+/* interface */ IPropertyManagerPageHandler2;
+struct /* coclass */ PropertyManagerPageHandler2;
+struct __declspec(uuid("4f517fa1-0db1-455f-9dbd-bb2d185df1fd"))
+/* interface */ IPtnrPMPageHandler;
+struct /* coclass */ PtnrPMPageHandler;
+struct __declspec(uuid("241838cc-b5a6-4b41-b70a-8f34ce844c88"))
+/* interface */ IPtnrPMPageHandler2;
+struct /* coclass */ PtnrPMPageHandler2;
+struct __declspec(uuid("da306a0d-eac5-4406-8610-b1da805d9270"))
+/* interface */ ISwAddin;
+struct /* coclass */ SwAddin;
+struct __declspec(uuid("229ff820-0dd2-11d5-af1e-00c04f603faf"))
+/* interface */ IPropertyManagerPage2Handler;
+struct /* coclass */ PropertyManagerPage2Handler;
+struct __declspec(uuid("9f580eb4-f31b-11d5-af66-00c04f603faf"))
+/* interface */ IPropertyManagerPage2Handler2;
+struct /* coclass */ PropertyManagerPage2Handler2;
+struct __declspec(uuid("b149338a-54d5-4e46-9fd0-ed95c9fcb85c"))
+/* interface */ IPropertyManagerPage2Handler3;
+struct /* coclass */ PropertyManagerPage2Handler3;
+struct __declspec(uuid("6ebcedf2-452a-49db-bf35-100d42b669d3"))
+/* interface */ IPropertyManagerPage2Handler4;
+struct /* coclass */ PropertyManagerPage2Handler4;
+struct __declspec(uuid("a343363f-3098-42fa-adc3-dfa70f39eb24"))
+/* interface */ IPropertyManagerPage2Handler5;
+struct /* coclass */ PropertyManagerPage2Handler5;
+struct __declspec(uuid("2c0d2b66-b379-4bca-b167-ff2222650388"))
+/* interface */ IPropertyManagerPage2Handler6;
+struct /* coclass */ PropertyManagerPage2Handler6;
+struct __declspec(uuid("d0e29e5e-98e8-4b6b-84bc-ed77336b2e91"))
+/* interface */ ISwComFeature;
+struct /* coclass */ SwComFeature;
+struct __declspec(uuid("abe5694f-16f2-4819-9ef6-502ae534d4ed"))
+/* interface */ ISwColorContour;
+struct /* coclass */ SwColorContour;
+struct __declspec(uuid("78773b6b-530e-4999-ae5a-1ef20fcc286c"))
+/* interface */ ITaskpaneViewHandler;
+struct /* coclass */ TaskpaneViewHandler;
+struct __declspec(uuid("2e8ca070-96b2-4ee4-a169-7d121aede5e3"))
+/* interface */ ISwQuickTip;
+struct /* coclass */ SwQuickTip;
+struct __declspec(uuid("8ba4e17e-660e-41d6-bc6f-8a9b3f9cdca6"))
+/* interface */ ISwManipulatorHandler;
+struct /* coclass */ SwManipulatorHandler;
+struct __declspec(uuid("45fc2f0e-7b16-4194-9e70-c8fa55ecece0"))
+/* interface */ ISwManipulatorHandler2;
+struct /* coclass */ SwManipulatorHandler2;
+struct __declspec(uuid("ae0fe0b2-2217-4610-8c0f-ac7619c0cafe"))
+/* interface */ ISwCalloutHandler;
+struct /* coclass */ SwCalloutHandler;
+struct __declspec(uuid("043aba21-bc20-4c46-a8d4-c8c0b67707a9"))
+/* interface */ ISwPointInferenceBroker;
+struct /* coclass */ SwPointInferenceBroker;
+struct __declspec(uuid("f8d48077-9710-4661-81af-5afb30000e99"))
+/* interface */ ISwAddinBroker;
+struct /* coclass */ SwAddinBroker;
+struct __declspec(uuid("ce926859-cd92-4bc6-a0af-1079544ac3ea"))
+/* interface */ ISwUndoAPIHandler;
+struct /* coclass */ SwUndoAPIHandler;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IPropertyManagerPageHandler, __uuidof(IPropertyManagerPageHandler));
+_COM_SMARTPTR_TYPEDEF(IPropertyManagerPageHandler2, __uuidof(IPropertyManagerPageHandler2));
+_COM_SMARTPTR_TYPEDEF(IPtnrPMPageHandler, __uuidof(IPtnrPMPageHandler));
+_COM_SMARTPTR_TYPEDEF(IPtnrPMPageHandler2, __uuidof(IPtnrPMPageHandler2));
+_COM_SMARTPTR_TYPEDEF(ISwAddin, __uuidof(ISwAddin));
+_COM_SMARTPTR_TYPEDEF(IPropertyManagerPage2Handler, __uuidof(IPropertyManagerPage2Handler));
+_COM_SMARTPTR_TYPEDEF(IPropertyManagerPage2Handler2, __uuidof(IPropertyManagerPage2Handler2));
+_COM_SMARTPTR_TYPEDEF(IPropertyManagerPage2Handler3, __uuidof(IPropertyManagerPage2Handler3));
+_COM_SMARTPTR_TYPEDEF(IPropertyManagerPage2Handler4, __uuidof(IPropertyManagerPage2Handler4));
+_COM_SMARTPTR_TYPEDEF(IPropertyManagerPage2Handler5, __uuidof(IPropertyManagerPage2Handler5));
+_COM_SMARTPTR_TYPEDEF(IPropertyManagerPage2Handler6, __uuidof(IPropertyManagerPage2Handler6));
+_COM_SMARTPTR_TYPEDEF(ISwComFeature, __uuidof(ISwComFeature));
+_COM_SMARTPTR_TYPEDEF(ISwColorContour, __uuidof(ISwColorContour));
+_COM_SMARTPTR_TYPEDEF(ITaskpaneViewHandler, __uuidof(ITaskpaneViewHandler));
+_COM_SMARTPTR_TYPEDEF(ISwQuickTip, __uuidof(ISwQuickTip));
+_COM_SMARTPTR_TYPEDEF(ISwManipulatorHandler, __uuidof(ISwManipulatorHandler));
+_COM_SMARTPTR_TYPEDEF(ISwManipulatorHandler2, __uuidof(ISwManipulatorHandler2));
+_COM_SMARTPTR_TYPEDEF(ISwCalloutHandler, __uuidof(ISwCalloutHandler));
+_COM_SMARTPTR_TYPEDEF(ISwPointInferenceBroker, __uuidof(ISwPointInferenceBroker));
+_COM_SMARTPTR_TYPEDEF(ISwAddinBroker, __uuidof(ISwAddinBroker));
+_COM_SMARTPTR_TYPEDEF(ISwUndoAPIHandler, __uuidof(ISwUndoAPIHandler));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("c71c31ce-898c-11d4-aef6-00c04f603faf"))
+IPropertyManagerPageHandler : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall DoDataExchange (
+        /*[in]*/ long DDXptr ) = 0;
+      virtual HRESULT __stdcall OnOK ( ) = 0;
+      virtual HRESULT __stdcall OnCancel ( ) = 0;
+};
+
+struct __declspec(uuid("c71c31cf-898c-11d4-aef6-00c04f603faf"))
+PropertyManagerPageHandler;
+    // [ default ] interface IPropertyManagerPageHandler
+
+struct __declspec(uuid("6d236210-2459-4436-b422-8134f1f4ad63"))
+IPropertyManagerPageHandler2 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall DoDataExchange (
+        /*[in]*/ long DDXptr ) = 0;
+      virtual HRESULT __stdcall OnOK ( ) = 0;
+      virtual HRESULT __stdcall OnCancel ( ) = 0;
+      virtual HRESULT __stdcall OnHelp (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+};
+
+struct __declspec(uuid("f995dcf4-6ee5-4103-97ff-c02dcc53eab2"))
+PropertyManagerPageHandler2;
+    // [ default ] interface IPropertyManagerPageHandler2
+
+struct __declspec(uuid("4f517fa1-0db1-455f-9dbd-bb2d185df1fd"))
+IPtnrPMPageHandler : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall DoDataExchange (
+        /*[in]*/ long DDXptr ) = 0;
+      virtual HRESULT __stdcall OnOK ( ) = 0;
+      virtual HRESULT __stdcall OnCancel ( ) = 0;
+      virtual HRESULT __stdcall OnHelp (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnInitDialog ( ) = 0;
+      virtual HRESULT __stdcall getBackPageIndex (
+        /*[out]*/ short * previousPageId,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall getNextPageIndex (
+        /*[out]*/ short * nextPageId,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnUndo ( ) = 0;
+      virtual HRESULT __stdcall PreDestroyNotify (
+        /*[in]*/ long pageNumber,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+};
+
+struct __declspec(uuid("39fec2d0-3259-4841-9bc6-b2579233f5e5"))
+PtnrPMPageHandler;
+    // [ default ] interface IPtnrPMPageHandler
+
+struct __declspec(uuid("241838cc-b5a6-4b41-b70a-8f34ce844c88"))
+IPtnrPMPageHandler2 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall DoDataExchange (
+        /*[in]*/ long DDXptr ) = 0;
+      virtual HRESULT __stdcall OnOK ( ) = 0;
+      virtual HRESULT __stdcall OnCancel ( ) = 0;
+      virtual HRESULT __stdcall OnHelp (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnInitDialog ( ) = 0;
+      virtual HRESULT __stdcall getBackPageIndex (
+        /*[out]*/ short * previousPageId,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall getNextPageIndex (
+        /*[out]*/ short * nextPageId,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnUndo ( ) = 0;
+      virtual HRESULT __stdcall PreDestroyNotify (
+        /*[in]*/ long pageNumber,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnPreview (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+};
+
+struct __declspec(uuid("44664467-9283-48f8-8112-50709fe11d67"))
+PtnrPMPageHandler2;
+    // [ default ] interface IPtnrPMPageHandler2
+
+struct __declspec(uuid("da306a0d-eac5-4406-8610-b1da805d9270"))
+ISwAddin : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall ConnectToSW (
+        /*[in]*/ IDispatch * ThisSW,
+        /*[in]*/ long Cookie,
+        /*[out,retval]*/ VARIANT_BOOL * IsConnected ) = 0;
+      virtual HRESULT __stdcall DisconnectFromSW (
+        /*[out,retval]*/ VARIANT_BOOL * IsDisconnected ) = 0;
+};
+
+struct __declspec(uuid("660e0090-1432-4a71-a90c-4359273381b1"))
+SwAddin;
+    // [ default ] interface ISwAddin
+
+struct __declspec(uuid("229ff820-0dd2-11d5-af1e-00c04f603faf"))
+IPropertyManagerPage2Handler : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall OnClose (
+        /*[in]*/ long Reason ) = 0;
+      virtual HRESULT __stdcall AfterClose ( ) = 0;
+      virtual HRESULT __stdcall OnHelp (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnGroupExpand (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Expanded ) = 0;
+      virtual HRESULT __stdcall OnGroupCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnCheckboxCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnOptionCheck (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnButtonPress (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnTextboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ BSTR Text ) = 0;
+      virtual HRESULT __stdcall OnNumberboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnComboboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnListboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxFocusChanged (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxListChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Count ) = 0;
+};
+
+struct __declspec(uuid("229ff821-0dd2-11d5-af1e-00c04f603faf"))
+PropertyManagerPage2Handler;
+    // [ default ] interface IPropertyManagerPage2Handler
+
+struct __declspec(uuid("9f580eb4-f31b-11d5-af66-00c04f603faf"))
+IPropertyManagerPage2Handler2 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall OnClose (
+        /*[in]*/ long Reason ) = 0;
+      virtual HRESULT __stdcall AfterClose ( ) = 0;
+      virtual HRESULT __stdcall OnHelp (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnGroupExpand (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Expanded ) = 0;
+      virtual HRESULT __stdcall OnGroupCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnCheckboxCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnOptionCheck (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnButtonPress (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnTextboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ BSTR Text ) = 0;
+      virtual HRESULT __stdcall OnNumberboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnComboboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnListboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxFocusChanged (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxListChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Count ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxCalloutCreated (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxCalloutDestroyed (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnComboboxEditChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ BSTR Text ) = 0;
+      virtual HRESULT __stdcall OnActiveXControlCreated (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Status,
+        /*[out,retval]*/ long * retval ) = 0;
+      virtual HRESULT __stdcall OnPreviousPage (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnNextPage (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+};
+
+struct __declspec(uuid("9f580eb5-f31b-11d5-af66-00c04f603faf"))
+PropertyManagerPage2Handler2;
+    // [ default ] interface IPropertyManagerPage2Handler2
+
+struct __declspec(uuid("b149338a-54d5-4e46-9fd0-ed95c9fcb85c"))
+IPropertyManagerPage2Handler3 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall OnClose (
+        /*[in]*/ long Reason ) = 0;
+      virtual HRESULT __stdcall AfterClose ( ) = 0;
+      virtual HRESULT __stdcall OnHelp (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnGroupExpand (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Expanded ) = 0;
+      virtual HRESULT __stdcall OnGroupCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnCheckboxCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnOptionCheck (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnButtonPress (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnTextboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ BSTR Text ) = 0;
+      virtual HRESULT __stdcall OnNumberboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnComboboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnListboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxFocusChanged (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxListChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Count ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxCalloutCreated (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxCalloutDestroyed (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnComboboxEditChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ BSTR Text ) = 0;
+      virtual HRESULT __stdcall OnActiveXControlCreated (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Status,
+        /*[out,retval]*/ long * retval ) = 0;
+      virtual HRESULT __stdcall OnPreviousPage (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnNextPage (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnPreview (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnSubmitSelection (
+        /*[in]*/ long Id,
+        /*[in]*/ IDispatch * Selection,
+        /*[in]*/ long SelType,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnTabClicked (
+        /*[in]*/ long Id,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnSliderPositionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnWhatsNew ( ) = 0;
+};
+
+struct __declspec(uuid("9dd2292a-b437-47db-8e45-d8e7157c946c"))
+PropertyManagerPage2Handler3;
+    // [ default ] interface IPropertyManagerPage2Handler3
+
+struct __declspec(uuid("6ebcedf2-452a-49db-bf35-100d42b669d3"))
+IPropertyManagerPage2Handler4 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall OnClose (
+        /*[in]*/ long Reason ) = 0;
+      virtual HRESULT __stdcall AfterClose ( ) = 0;
+      virtual HRESULT __stdcall OnHelp (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnGroupExpand (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Expanded ) = 0;
+      virtual HRESULT __stdcall OnGroupCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnCheckboxCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnOptionCheck (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnButtonPress (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnTextboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ BSTR Text ) = 0;
+      virtual HRESULT __stdcall OnNumberboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnComboboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnListboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxFocusChanged (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxListChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Count ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxCalloutCreated (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxCalloutDestroyed (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnComboboxEditChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ BSTR Text ) = 0;
+      virtual HRESULT __stdcall OnActiveXControlCreated (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Status,
+        /*[out,retval]*/ long * retval ) = 0;
+      virtual HRESULT __stdcall OnPreviousPage (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnNextPage (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnPreview (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnSubmitSelection (
+        /*[in]*/ long Id,
+        /*[in]*/ IDispatch * Selection,
+        /*[in]*/ long SelType,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnTabClicked (
+        /*[in]*/ long Id,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnSliderPositionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnWhatsNew ( ) = 0;
+      virtual HRESULT __stdcall OnUndo ( ) = 0;
+      virtual HRESULT __stdcall OnSliderTrackingCompleted (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnKeystroke (
+        /*[in]*/ long Wparam,
+        /*[in]*/ long Message,
+        /*[in]*/ long Lparam,
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnPopupMenuItem (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnPopupMenuItemUpdate (
+        /*[in]*/ long Id,
+        /*[in]*/ long * retval ) = 0;
+};
+
+struct __declspec(uuid("f622129c-393a-487b-ae8e-0fd01313f115"))
+PropertyManagerPage2Handler4;
+    // [ default ] interface IPropertyManagerPage2Handler4
+
+struct __declspec(uuid("a343363f-3098-42fa-adc3-dfa70f39eb24"))
+IPropertyManagerPage2Handler5 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall OnClose (
+        /*[in]*/ long Reason ) = 0;
+      virtual HRESULT __stdcall AfterClose ( ) = 0;
+      virtual HRESULT __stdcall OnHelp (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnGroupExpand (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Expanded ) = 0;
+      virtual HRESULT __stdcall OnGroupCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnCheckboxCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnOptionCheck (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnButtonPress (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnTextboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ BSTR Text ) = 0;
+      virtual HRESULT __stdcall OnNumberboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnComboboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnListboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxFocusChanged (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxListChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Count ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxCalloutCreated (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxCalloutDestroyed (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnComboboxEditChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ BSTR Text ) = 0;
+      virtual HRESULT __stdcall OnActiveXControlCreated (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Status,
+        /*[out,retval]*/ long * retval ) = 0;
+      virtual HRESULT __stdcall OnPreviousPage (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnNextPage (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnPreview (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnSubmitSelection (
+        /*[in]*/ long Id,
+        /*[in]*/ IDispatch * Selection,
+        /*[in]*/ long SelType,
+        /*[in,out]*/ BSTR * ItemText,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnTabClicked (
+        /*[in]*/ long Id,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnSliderPositionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnWhatsNew ( ) = 0;
+      virtual HRESULT __stdcall OnUndo ( ) = 0;
+      virtual HRESULT __stdcall OnSliderTrackingCompleted (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnKeystroke (
+        /*[in]*/ long Wparam,
+        /*[in]*/ long Message,
+        /*[in]*/ long Lparam,
+        /*[in]*/ long Id,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnPopupMenuItem (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnPopupMenuItemUpdate (
+        /*[in]*/ long Id,
+        /*[in]*/ long * retval ) = 0;
+      virtual HRESULT __stdcall AfterActivation ( ) = 0;
+};
+
+struct __declspec(uuid("35de8357-6b15-4b13-9916-a455dd4a3112"))
+PropertyManagerPage2Handler5;
+    // [ default ] interface IPropertyManagerPage2Handler5
+
+struct __declspec(uuid("2c0d2b66-b379-4bca-b167-ff2222650388"))
+IPropertyManagerPage2Handler6 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall AfterActivation ( ) = 0;
+      virtual HRESULT __stdcall OnClose (
+        /*[in]*/ long Reason ) = 0;
+      virtual HRESULT __stdcall AfterClose ( ) = 0;
+      virtual HRESULT __stdcall OnHelp (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnPreviousPage (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnNextPage (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnPreview (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnWhatsNew ( ) = 0;
+      virtual HRESULT __stdcall OnUndo ( ) = 0;
+      virtual HRESULT __stdcall OnRedo ( ) = 0;
+      virtual HRESULT __stdcall OnTabClicked (
+        /*[in]*/ long Id,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnGroupExpand (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Expanded ) = 0;
+      virtual HRESULT __stdcall OnGroupCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnCheckboxCheck (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Checked ) = 0;
+      virtual HRESULT __stdcall OnOptionCheck (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnButtonPress (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnTextboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ BSTR Text ) = 0;
+      virtual HRESULT __stdcall OnNumberboxChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnComboboxEditChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ BSTR Text ) = 0;
+      virtual HRESULT __stdcall OnComboboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnListboxSelectionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Item ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxFocusChanged (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxListChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ long Count ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxCalloutCreated (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSelectionboxCalloutDestroyed (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnSubmitSelection (
+        /*[in]*/ long Id,
+        /*[in]*/ IDispatch * Selection,
+        /*[in]*/ long SelType,
+        /*[in,out]*/ BSTR * ItemText,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnActiveXControlCreated (
+        /*[in]*/ long Id,
+        /*[in]*/ VARIANT_BOOL Status,
+        /*[out,retval]*/ long * retval ) = 0;
+      virtual HRESULT __stdcall OnSliderPositionChanged (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnSliderTrackingCompleted (
+        /*[in]*/ long Id,
+        /*[in]*/ double Value ) = 0;
+      virtual HRESULT __stdcall OnKeystroke (
+        /*[in]*/ long Wparam,
+        /*[in]*/ long Message,
+        /*[in]*/ long Lparam,
+        /*[in]*/ long Id,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnPopupMenuItem (
+        /*[in]*/ long Id ) = 0;
+      virtual HRESULT __stdcall OnPopupMenuItemUpdate (
+        /*[in]*/ long Id,
+        /*[in]*/ long * retval ) = 0;
+};
+
+struct __declspec(uuid("fac3f7ae-d1d7-452e-82cb-0fd7a725ed42"))
+PropertyManagerPage2Handler6;
+    // [ default ] interface IPropertyManagerPage2Handler6
+
+struct __declspec(uuid("d0e29e5e-98e8-4b6b-84bc-ed77336b2e91"))
+ISwComFeature : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall Edit (
+        /*[in]*/ IDispatch * app,
+        /*[in]*/ IDispatch * modelDoc,
+        /*[in]*/ IDispatch * feature,
+        /*[out,retval]*/ VARIANT * retval ) = 0;
+      virtual HRESULT __stdcall Regenerate (
+        /*[in]*/ IDispatch * app,
+        /*[in]*/ IDispatch * modelDoc,
+        /*[in]*/ IDispatch * feature,
+        /*[out,retval]*/ VARIANT * retval ) = 0;
+      virtual HRESULT __stdcall Security (
+        /*[in]*/ IDispatch * app,
+        /*[in]*/ IDispatch * modelDoc,
+        /*[in]*/ IDispatch * feature,
+        /*[out,retval]*/ VARIANT * retval ) = 0;
+};
+
+struct __declspec(uuid("00229c01-f87a-479b-be42-410c4f53ef91"))
+SwComFeature;
+    // [ default ] interface ISwComFeature
+
+struct __declspec(uuid("abe5694f-16f2-4819-9ef6-502ae534d4ed"))
+ISwColorContour : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall Color (
+        /*[in]*/ double Value,
+        /*[out,retval]*/ long * Color ) = 0;
+      virtual HRESULT __stdcall NeedsUpdate (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall Value (
+        /*[in]*/ IDispatch * face,
+        /*[in]*/ float * vertexCoords,
+        /*[in]*/ float * normalCoords,
+        /*[out]*/ double * Value,
+        /*[out,retval]*/ long * Color ) = 0;
+      virtual HRESULT __stdcall DisplayString (
+        /*[in]*/ double Value,
+        /*[out,retval]*/ BSTR * retval ) = 0;
+};
+
+struct __declspec(uuid("0fd2c4c1-88ac-4708-8e5c-1b193476951e"))
+SwColorContour;
+    // [ default ] interface ISwColorContour
+
+struct __declspec(uuid("78773b6b-530e-4999-ae5a-1ef20fcc286c"))
+ITaskpaneViewHandler : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall OnActivate ( ) = 0;
+      virtual HRESULT __stdcall OnDeactivate ( ) = 0;
+      virtual HRESULT __stdcall OnDestroy ( ) = 0;
+};
+
+struct __declspec(uuid("78773b6c-530e-4999-ae5a-1ef20fcc286c"))
+TaskpaneViewHandler;
+    // [ default ] interface ITaskpaneViewHandler
+
+struct __declspec(uuid("2e8ca070-96b2-4ee4-a169-7d121aede5e3"))
+ISwQuickTip : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Url (
+        /*[out,retval]*/ BSTR * Url ) = 0;
+      virtual HRESULT __stdcall get_HideGuide (
+        /*[out,retval]*/ VARIANT_BOOL * hide ) = 0;
+      virtual HRESULT __stdcall get_ApplicationName (
+        /*[out,retval]*/ BSTR * appName ) = 0;
+      virtual HRESULT __stdcall get_MenuName (
+        /*[out,retval]*/ BSTR * label ) = 0;
+      virtual HRESULT __stdcall get_ShowInAssemblyDoc (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall get_ShowInPartDoc (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall get_ShowInDrawingDoc (
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall SwState (
+        /*[in]*/ long state ) = 0;
+      virtual HRESULT __stdcall AppState (
+        /*[in]*/ long state ) = 0;
+};
+
+struct __declspec(uuid("dd34749a-5c8d-4c7b-ab5b-cfb908b49571"))
+SwQuickTip;
+    // [ default ] interface ISwQuickTip
+
+struct __declspec(uuid("8ba4e17e-660e-41d6-bc6f-8a9b3f9cdca6"))
+ISwManipulatorHandler : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall OnDirectionFlipped (
+        /*[in]*/ IDispatch * pManipulator ) = 0;
+      virtual HRESULT __stdcall OnLmbSelected (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnHandleSelected (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex ) = 0;
+      virtual HRESULT __stdcall OnUpdateDrag (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex,
+        /*[in]*/ IDispatch * newPosMathPt ) = 0;
+      virtual HRESULT __stdcall OnEndDrag (
+        /*[in]*/ IDispatch * pManipulator ) = 0;
+      virtual HRESULT __stdcall OnEndNoDrag (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex ) = 0;
+      virtual HRESULT __stdcall OnHandleRmbSelected (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex ) = 0;
+      virtual HRESULT __stdcall OnDelete (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnDoubleValueChanged (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int Id,
+        /*[in]*/ double * Value,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnStringValueChanged (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int Id,
+        /*[in]*/ BSTR * Value,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnItemSetFocus (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int Id ) = 0;
+};
+
+struct __declspec(uuid("70bf185d-f072-4ff6-82e0-741823cf05f4"))
+SwManipulatorHandler;
+    // [ default ] interface ISwManipulatorHandler
+
+struct __declspec(uuid("45fc2f0e-7b16-4194-9e70-c8fa55ecece0"))
+ISwManipulatorHandler2 : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall OnDirectionFlipped (
+        /*[in]*/ IDispatch * pManipulator ) = 0;
+      virtual HRESULT __stdcall OnHandleLmbSelected (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnHandleSelected (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex ) = 0;
+      virtual HRESULT __stdcall OnUpdateDrag (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex,
+        /*[in]*/ IDispatch * newPosMathPt ) = 0;
+      virtual HRESULT __stdcall OnEndDrag (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex ) = 0;
+      virtual HRESULT __stdcall OnEndNoDrag (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex ) = 0;
+      virtual HRESULT __stdcall OnHandleRmbSelected (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex ) = 0;
+      virtual HRESULT __stdcall OnDelete (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnDoubleValueChanged (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex,
+        /*[in]*/ double * Value,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnStringValueChanged (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex,
+        /*[in]*/ BSTR * Value,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+      virtual HRESULT __stdcall OnItemSetFocus (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ int handleIndex ) = 0;
+};
+
+struct __declspec(uuid("9df3414f-2131-4009-a366-9330ee6a9763"))
+SwManipulatorHandler2;
+    // [ default ] interface ISwManipulatorHandler2
+
+struct __declspec(uuid("ae0fe0b2-2217-4610-8c0f-ac7619c0cafe"))
+ISwCalloutHandler : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall OnStringValueChanged (
+        /*[in]*/ IDispatch * pManipulator,
+        /*[in]*/ long RowID,
+        /*[in]*/ BSTR Text,
+        /*[out,retval]*/ VARIANT_BOOL * retval ) = 0;
+};
+
+struct __declspec(uuid("f00456f4-9dd2-49c8-90f8-818e70328622"))
+SwCalloutHandler;
+    // [ default ] interface ISwCalloutHandler
+
+struct __declspec(uuid("043aba21-bc20-4c46-a8d4-c8c0b67707a9"))
+ISwPointInferenceBroker : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall GetInferencePoints (
+        /*[in]*/ IDispatch * pDoc,
+        /*[in]*/ int SelPosX,
+        /*[in]*/ int SelPosY,
+        /*[in]*/ double Tolerance,
+        /*[in]*/ long Option,
+        /*[out]*/ VARIANT * InferPoints ) = 0;
+};
+
+struct __declspec(uuid("ed8d1114-5b57-4a5f-bc6a-e16e505f4110"))
+SwPointInferenceBroker;
+    // [ default ] interface ISwPointInferenceBroker
+
+struct __declspec(uuid("f8d48077-9710-4661-81af-5afb30000e99"))
+ISwAddinBroker : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall GetInferencePoints (
+        /*[in]*/ IDispatch * pDoc,
+        /*[in]*/ int SelPosX,
+        /*[in]*/ int SelPosY,
+        /*[in]*/ double Tolerance,
+        /*[in]*/ long Option,
+        /*[out]*/ VARIANT * InferPoints ) = 0;
+      virtual HRESULT __stdcall GetSelectedObjectsBBox (
+        /*[in]*/ IDispatch * pDoc,
+        /*[in]*/ long Option,
+        /*[out]*/ VARIANT * BoxCorners ) = 0;
+};
+
+struct __declspec(uuid("47673231-58de-4d90-9b18-1711f44c5e80"))
+SwAddinBroker;
+    // [ default ] interface ISwAddinBroker
+
+struct __declspec(uuid("ce926859-cd92-4bc6-a0af-1079544ac3ea"))
+ISwUndoAPIHandler : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall DoUndo ( ) = 0;
+      virtual HRESULT __stdcall UndoReSet ( ) = 0;
+};
+
+struct __declspec(uuid("eb142970-7ff9-4d1e-b4d2-80b11ec7816e"))
+SwUndoAPIHandler;
+    // [ default ] interface ISwUndoAPIHandler
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_SWPublished =
+    {0xc71c31cd,0x898c,0x11d4,{0xae,0xf6,0x00,0xc0,0x4f,0x60,0x3f,0xaf}};
+extern "C" const GUID __declspec(selectany) IID_IPropertyManagerPageHandler =
+    {0xc71c31ce,0x898c,0x11d4,{0xae,0xf6,0x00,0xc0,0x4f,0x60,0x3f,0xaf}};
+extern "C" const GUID __declspec(selectany) CLSID_PropertyManagerPageHandler =
+    {0xc71c31cf,0x898c,0x11d4,{0xae,0xf6,0x00,0xc0,0x4f,0x60,0x3f,0xaf}};
+extern "C" const GUID __declspec(selectany) IID_IPropertyManagerPageHandler2 =
+    {0x6d236210,0x2459,0x4436,{0xb4,0x22,0x81,0x34,0xf1,0xf4,0xad,0x63}};
+extern "C" const GUID __declspec(selectany) CLSID_PropertyManagerPageHandler2 =
+    {0xf995dcf4,0x6ee5,0x4103,{0x97,0xff,0xc0,0x2d,0xcc,0x53,0xea,0xb2}};
+extern "C" const GUID __declspec(selectany) IID_IPtnrPMPageHandler =
+    {0x4f517fa1,0x0db1,0x455f,{0x9d,0xbd,0xbb,0x2d,0x18,0x5d,0xf1,0xfd}};
+extern "C" const GUID __declspec(selectany) CLSID_PtnrPMPageHandler =
+    {0x39fec2d0,0x3259,0x4841,{0x9b,0xc6,0xb2,0x57,0x92,0x33,0xf5,0xe5}};
+extern "C" const GUID __declspec(selectany) IID_IPtnrPMPageHandler2 =
+    {0x241838cc,0xb5a6,0x4b41,{0xb7,0x0a,0x8f,0x34,0xce,0x84,0x4c,0x88}};
+extern "C" const GUID __declspec(selectany) CLSID_PtnrPMPageHandler2 =
+    {0x44664467,0x9283,0x48f8,{0x81,0x12,0x50,0x70,0x9f,0xe1,0x1d,0x67}};
+extern "C" const GUID __declspec(selectany) IID_ISwAddin =
+    {0xda306a0d,0xeac5,0x4406,{0x86,0x10,0xb1,0xda,0x80,0x5d,0x92,0x70}};
+extern "C" const GUID __declspec(selectany) CLSID_SwAddin =
+    {0x660e0090,0x1432,0x4a71,{0xa9,0x0c,0x43,0x59,0x27,0x33,0x81,0xb1}};
+extern "C" const GUID __declspec(selectany) IID_IPropertyManagerPage2Handler =
+    {0x229ff820,0x0dd2,0x11d5,{0xaf,0x1e,0x00,0xc0,0x4f,0x60,0x3f,0xaf}};
+extern "C" const GUID __declspec(selectany) CLSID_PropertyManagerPage2Handler =
+    {0x229ff821,0x0dd2,0x11d5,{0xaf,0x1e,0x00,0xc0,0x4f,0x60,0x3f,0xaf}};
+extern "C" const GUID __declspec(selectany) IID_IPropertyManagerPage2Handler2 =
+    {0x9f580eb4,0xf31b,0x11d5,{0xaf,0x66,0x00,0xc0,0x4f,0x60,0x3f,0xaf}};
+extern "C" const GUID __declspec(selectany) CLSID_PropertyManagerPage2Handler2 =
+    {0x9f580eb5,0xf31b,0x11d5,{0xaf,0x66,0x00,0xc0,0x4f,0x60,0x3f,0xaf}};
+extern "C" const GUID __declspec(selectany) IID_IPropertyManagerPage2Handler3 =
+    {0xb149338a,0x54d5,0x4e46,{0x9f,0xd0,0xed,0x95,0xc9,0xfc,0xb8,0x5c}};
+extern "C" const GUID __declspec(selectany) CLSID_PropertyManagerPage2Handler3 =
+    {0x9dd2292a,0xb437,0x47db,{0x8e,0x45,0xd8,0xe7,0x15,0x7c,0x94,0x6c}};
+extern "C" const GUID __declspec(selectany) IID_IPropertyManagerPage2Handler4 =
+    {0x6ebcedf2,0x452a,0x49db,{0xbf,0x35,0x10,0x0d,0x42,0xb6,0x69,0xd3}};
+extern "C" const GUID __declspec(selectany) CLSID_PropertyManagerPage2Handler4 =
+    {0xf622129c,0x393a,0x487b,{0xae,0x8e,0x0f,0xd0,0x13,0x13,0xf1,0x15}};
+extern "C" const GUID __declspec(selectany) IID_IPropertyManagerPage2Handler5 =
+    {0xa343363f,0x3098,0x42fa,{0xad,0xc3,0xdf,0xa7,0x0f,0x39,0xeb,0x24}};
+extern "C" const GUID __declspec(selectany) CLSID_PropertyManagerPage2Handler5 =
+    {0x35de8357,0x6b15,0x4b13,{0x99,0x16,0xa4,0x55,0xdd,0x4a,0x31,0x12}};
+extern "C" const GUID __declspec(selectany) IID_IPropertyManagerPage2Handler6 =
+    {0x2c0d2b66,0xb379,0x4bca,{0xb1,0x67,0xff,0x22,0x22,0x65,0x03,0x88}};
+extern "C" const GUID __declspec(selectany) CLSID_PropertyManagerPage2Handler6 =
+    {0xfac3f7ae,0xd1d7,0x452e,{0x82,0xcb,0x0f,0xd7,0xa7,0x25,0xed,0x42}};
+extern "C" const GUID __declspec(selectany) IID_ISwComFeature =
+    {0xd0e29e5e,0x98e8,0x4b6b,{0x84,0xbc,0xed,0x77,0x33,0x6b,0x2e,0x91}};
+extern "C" const GUID __declspec(selectany) CLSID_SwComFeature =
+    {0x00229c01,0xf87a,0x479b,{0xbe,0x42,0x41,0x0c,0x4f,0x53,0xef,0x91}};
+extern "C" const GUID __declspec(selectany) IID_ISwColorContour =
+    {0xabe5694f,0x16f2,0x4819,{0x9e,0xf6,0x50,0x2a,0xe5,0x34,0xd4,0xed}};
+extern "C" const GUID __declspec(selectany) CLSID_SwColorContour =
+    {0x0fd2c4c1,0x88ac,0x4708,{0x8e,0x5c,0x1b,0x19,0x34,0x76,0x95,0x1e}};
+extern "C" const GUID __declspec(selectany) IID_ITaskpaneViewHandler =
+    {0x78773b6b,0x530e,0x4999,{0xae,0x5a,0x1e,0xf2,0x0f,0xcc,0x28,0x6c}};
+extern "C" const GUID __declspec(selectany) CLSID_TaskpaneViewHandler =
+    {0x78773b6c,0x530e,0x4999,{0xae,0x5a,0x1e,0xf2,0x0f,0xcc,0x28,0x6c}};
+extern "C" const GUID __declspec(selectany) IID_ISwQuickTip =
+    {0x2e8ca070,0x96b2,0x4ee4,{0xa1,0x69,0x7d,0x12,0x1a,0xed,0xe5,0xe3}};
+extern "C" const GUID __declspec(selectany) CLSID_SwQuickTip =
+    {0xdd34749a,0x5c8d,0x4c7b,{0xab,0x5b,0xcf,0xb9,0x08,0xb4,0x95,0x71}};
+extern "C" const GUID __declspec(selectany) IID_ISwManipulatorHandler =
+    {0x8ba4e17e,0x660e,0x41d6,{0xbc,0x6f,0x8a,0x9b,0x3f,0x9c,0xdc,0xa6}};
+extern "C" const GUID __declspec(selectany) CLSID_SwManipulatorHandler =
+    {0x70bf185d,0xf072,0x4ff6,{0x82,0xe0,0x74,0x18,0x23,0xcf,0x05,0xf4}};
+extern "C" const GUID __declspec(selectany) IID_ISwManipulatorHandler2 =
+    {0x45fc2f0e,0x7b16,0x4194,{0x9e,0x70,0xc8,0xfa,0x55,0xec,0xec,0xe0}};
+extern "C" const GUID __declspec(selectany) CLSID_SwManipulatorHandler2 =
+    {0x9df3414f,0x2131,0x4009,{0xa3,0x66,0x93,0x30,0xee,0x6a,0x97,0x63}};
+extern "C" const GUID __declspec(selectany) IID_ISwCalloutHandler =
+    {0xae0fe0b2,0x2217,0x4610,{0x8c,0x0f,0xac,0x76,0x19,0xc0,0xca,0xfe}};
+extern "C" const GUID __declspec(selectany) CLSID_SwCalloutHandler =
+    {0xf00456f4,0x9dd2,0x49c8,{0x90,0xf8,0x81,0x8e,0x70,0x32,0x86,0x22}};
+extern "C" const GUID __declspec(selectany) IID_ISwPointInferenceBroker =
+    {0x043aba21,0xbc20,0x4c46,{0xa8,0xd4,0xc8,0xc0,0xb6,0x77,0x07,0xa9}};
+extern "C" const GUID __declspec(selectany) CLSID_SwPointInferenceBroker =
+    {0xed8d1114,0x5b57,0x4a5f,{0xbc,0x6a,0xe1,0x6e,0x50,0x5f,0x41,0x10}};
+extern "C" const GUID __declspec(selectany) IID_ISwAddinBroker =
+    {0xf8d48077,0x9710,0x4661,{0x81,0xaf,0x5a,0xfb,0x30,0x00,0x0e,0x99}};
+extern "C" const GUID __declspec(selectany) CLSID_SwAddinBroker =
+    {0x47673231,0x58de,0x4d90,{0x9b,0x18,0x17,0x11,0xf4,0x4c,0x5e,0x80}};
+extern "C" const GUID __declspec(selectany) IID_ISwUndoAPIHandler =
+    {0xce926859,0xcd92,0x4bc6,{0xa0,0xaf,0x10,0x79,0x54,0x4a,0xc3,0xea}};
+extern "C" const GUID __declspec(selectany) CLSID_SwUndoAPIHandler =
+    {0xeb142970,0x7ff9,0x4d1e,{0xb4,0xd2,0x80,0xb1,0x1e,0xc7,0x81,0x6e}};
+
+} // namespace SWPublished
+
+#pragma pack(pop)

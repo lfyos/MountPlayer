@@ -1,0 +1,55 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'part'
+		'part.DLL'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+
+HKCR
+{
+	part.part.1 = s 'part Class'
+	{
+		CLSID = s '{4481A85F-5E87-4B1C-9A5E-8E2D32E1BC2A}'
+	}
+	part.part = s 'part Class'
+	{
+		CLSID = s '{4481A85F-5E87-4B1C-9A5E-8E2D32E1BC2A}'
+		CurVer = s 'part.part.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {4481A85F-5E87-4B1C-9A5E-8E2D32E1BC2A} = s 'part Class'
+		{
+			ProgID = s 'part.part.1'
+			VersionIndependentProgID = s 'part.part'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'apartment'
+			}
+			'TypeLib' = s '{319430FB-809A-4464-9BAC-1E345B4A243F}'
+		}
+	}
+}
+HKLM
+{
+	NoRemove SOFTWARE
+	{
+		NoRemove SolidWorks
+		{
+			NoRemove AddIns
+			{
+				ForceRemove {4481A85F-5E87-4B1C-9A5E-8E2D32E1BC2A} = d '0'
+				{
+					val Description = s 'part AddIn'
+					val Title = s 'part'
+				}
+			}
+		}
+	}
+}

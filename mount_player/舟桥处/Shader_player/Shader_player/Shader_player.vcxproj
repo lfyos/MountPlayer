@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{423996DD-97DC-4247-8591-7CB80BBA61B9}</ProjectGuid>
+    <RootNamespace>Shader_player</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\OpenCV2.0\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>.\kernel\gl;C:\OpenCV2.0\vs2008\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\OpenCV2.0\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>..\..\铁路桥梁抢修模拟拼装系统2010版\test.exe</OutputFile>
+      <AdditionalLibraryDirectories>.\kernel\gl;C:\OpenCV2.0\vs2008\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="kernel\Assemble_type.cpp" />
+    <ClCompile Include="kernel\Network.cpp" />
+    <ClCompile Include="user_interface\Assemble_type_list.cpp" />
+    <ClCompile Include="kernel\Camera.cpp" />
+    <ClCompile Include="kernel\Clip_component.cpp" />
+    <ClCompile Include="kernel\Component.cpp" />
+    <ClCompile Include="kernel\Component_collector.cpp" />
+    <ClCompile Include="user_interface\Component_list.cpp" />
+    <ClCompile Include="kernel\Edge.cpp" />
+    <ClCompile Include="kernel\Graphics_system.cpp" />
+    <ClCompile Include="kernel\Light.cpp" />
+    <ClCompile Include="user_interface\List_base.cpp" />
+    <ClCompile Include="kernel\Location.cpp" />
+    <ClCompile Include="user_interface\Location_dialog.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="user_interface\Mount_cache_information_dialog.cpp" />
+    <ClCompile Include="user_interface\Mount_information_dialog.cpp" />
+    <ClCompile Include="user_interface\Mount_step_dialog.cpp" />
+    <ClCompile Include="user_interface\Mount_step_tag_dialog.cpp" />
+    <ClCompile Include="user_interface\Mount_time_length_dialog.cpp" />
+    <ClCompile Include="movement\Movement.cpp" />
+    <ClCompile Include="user_interface\Movement_list.cpp" />
+    <ClCompile Include="movement\Movement_processor.cpp" />
+    <ClCompile Include="kernel\Part.cpp" />
+    <ClCompile Include="kernel\Part_graphics_object.cpp" />
+    <ClCompile Include="user_interface\Part_list.cpp" />
+    <ClCompile Include="kernel\Part_parameter.cpp" />
+    <ClCompile Include="user_interface\Part_property.cpp" />
+    <ClCompile Include="kernel\Platform_information.cpp" />
+    <ClCompile Include="user_interface\PropertiesWnd.cpp" />
+    <ClCompile Include="kernel\Select_component_ids.cpp" />
+    <ClCompile Include="kernel\Shader_base.cpp" />
+    <ClCompile Include="kernel\Shader_coordinate.cpp" />
+    <ClCompile Include="kernel\Shader_environment.cpp" />
+    <ClCompile Include="Shader_player.cpp" />
+    <ClCompile Include="Shader_playerDoc.cpp" />
+    <ClCompile Include="Shader_playerView.cpp" />
+    <ClCompile Include="kernel\Shader_select_area.cpp" />
+    <ClCompile Include="kernel\Shader_size_tag.cpp" />
+    <ClCompile Include="kernel\Shader_solidworks.cpp" />
+    <ClCompile Include="kernel\Shader_solidworks_material_dialog.cpp" />
+    <ClCompile Include="kernel\Shader_terrain.cpp" />
+    <ClCompile Include="kernel\Sound_player.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="kernel\Texture.cpp" />
+    <ClCompile Include="kernel\User_interface.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+    <ClCompile Include="kernel\Whole_system.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kernel\Assemble_type.h" />
+    <ClInclude Include="kernel\Class_list.h" />
+    <ClInclude Include="kernel\File_data.h" />
+    <ClInclude Include="kernel\Network.h" />
+    <ClInclude Include="user_interface\Assemble_type_list.h" />
+    <ClInclude Include="kernel\Camera.h" />
+    <ClInclude Include="kernel\Clip_component.h" />
+    <ClInclude Include="kernel\Component.h" />
+    <ClInclude Include="kernel\Component_collector.h" />
+    <ClInclude Include="kernel\Component_display_parameter.h" />
+    <ClInclude Include="user_interface\Component_list.h" />
+    <ClInclude Include="kernel\Const.h" />
+    <ClInclude Include="kernel\Coordinate_management.h" />
+    <ClInclude Include="kernel\Edge.h" />
+    <ClInclude Include="kernel\Graphics_system.h" />
+    <ClInclude Include="kernel\Light.h" />
+    <ClInclude Include="user_interface\List_base.h" />
+    <ClInclude Include="kernel\Location.h" />
+    <ClInclude Include="user_interface\Location_dialog.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="user_interface\Mount_cache_information_dialog.h" />
+    <ClInclude Include="user_interface\Mount_information_dialog.h" />
+    <ClInclude Include="user_interface\Mount_step_dialog.h" />
+    <ClInclude Include="user_interface\Mount_step_tag_dialog.h" />
+    <ClInclude Include="user_interface\Mount_time_length_dialog.h" />
+    <ClInclude Include="movement\Movement.h" />
+    <ClInclude Include="user_interface\Movement_list.h" />
+    <ClInclude Include="movement\Movement_processor.h" />
+    <ClInclude Include="kernel\Part.h" />
+    <ClInclude Include="kernel\Part_graphics_object.h" />
+    <ClInclude Include="user_interface\Part_list.h" />
+    <ClInclude Include="kernel\Part_parameter.h" />
+    <ClInclude Include="user_interface\Part_property.h" />
+    <ClInclude Include="kernel\Platform_information.h" />
+    <ClInclude Include="kernel\Point.h" />
+    <ClInclude Include="user_interface\PropertiesWnd.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="kernel\Select_component_ids.h" />
+    <ClInclude Include="kernel\Shader_base.h" />
+    <ClInclude Include="kernel\Shader_coordinate.h" />
+    <ClInclude Include="kernel\Shader_environment.h" />
+    <ClInclude Include="Shader_player.h" />
+    <ClInclude Include="Shader_playerDoc.h" />
+    <ClInclude Include="Shader_playerView.h" />
+    <ClInclude Include="kernel\Shader_select_area.h" />
+    <ClInclude Include="kernel\Shader_size_tag.h" />
+    <ClInclude Include="kernel\Shader_solidworks.h" />
+    <ClInclude Include="kernel\Shader_solidworks_material_dialog.h" />
+    <ClInclude Include="kernel\Shader_terrain.h" />
+    <ClInclude Include="kernel\Sound_player.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="kernel\Texture.h" />
+    <ClInclude Include="kernel\User_interface.h" />
+    <ClInclude Include="ViewTree.h" />
+    <ClInclude Include="kernel\Whole_system.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bridge_toolbar.bmp" />
+    <None Include="bridge_toolbar.bmp" />
+    <None Include="res\class_view.ico" />
+    <None Include="res\class_view_hc.ico" />
+    <None Include="res\classview.bmp" />
+    <None Include="res\classview_hc.bmp" />
+    <None Include="res\explorer.bmp" />
+    <None Include="res\explorer_hc.bmp" />
+    <None Include="res\file_view.ico" />
+    <None Include="res\file_view_hc.ico" />
+    <None Include="res\fileview.bmp" />
+    <None Include="res\fileview_hc.bmp" />
+    <None Include="res\menuimages.bmp" />
+    <None Include="res\menuimages_hc.bmp" />
+    <None Include="res\mount_to.bmp" />
+    <None Include="res\mount_toolbar.bmp" />
+    <None Include="res\mouse_key_toolbar.bmp" />
+    <None Include="res\mouse_wheel_toolbar.bmp" />
+    <None Include="res\output_wnd.ico" />
+    <None Include="res\output_wnd_hc.ico" />
+    <None Include="res\part_display_toolbar.bmp" />
+    <None Include="res\part_toolbar.bmp" />
+    <None Include="res\part_view_toolbar.bmp" />
+    <None Include="res\properties.bmp" />
+    <None Include="res\properties_hc.bmp" />
+    <None Include="res\properties_wnd.ico" />
+    <None Include="res\properties_wnd_hc.ico" />
+    <None Include="res\Shader_player.ico" />
+    <None Include="res\Shader_player.rc2" />
+    <None Include="res\Shader_playerDoc.ico" />
+    <None Include="res\sort.bmp" />
+    <None Include="res\sort_hc.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\toolbar_mount.bmp" />
+    <None Include="res\toolbar_mouse_leftkey.bmp" />
+    <None Include="res\toolbar_mouse_wheel.bmp" />
+    <None Include="res\toolbar_part.bmp" />
+    <None Include="res\toolbar_part_display.bmp" />
+    <None Include="res\toolbar_part_view.bmp" />
+    <None Include="UserImages.bmp" />
+    <None Include="kernel\ReadMe.txt" />
+    <None Include="ReadMe.txt" />
+    <None Include="Shader_player.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Shader_player.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Shader_player.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
